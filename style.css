@@ -25,14 +25,9 @@ th {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+    display: block;
+    margin: auto;
 }
 
-@media (max-width: 768px) {
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-}
